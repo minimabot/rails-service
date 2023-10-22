@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   end
 
   constraints subdomain: 'www' do
-    scope module: 'client', as: 'client' do
+    scope '/:locale', locale: /en|ko|ja/, module: 'client', as: 'client' do
       root to: 'home#index'
     end
   end
