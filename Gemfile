@@ -21,6 +21,12 @@ end
 
 group :development do
   gem "rack-mini-profiler"
+  gem 'rubocop', '~> 1.56', require: false
+  gem 'rubocop-capybara', require: false
+  gem 'rubocop-minitest', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rake', require: false
   gem "spring"
   gem "web-console"
 
