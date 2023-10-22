@@ -43,3 +43,7 @@
 
 # SSL
 /config/ssl
+
+# YARD docs
+/doc
+/.yardoc

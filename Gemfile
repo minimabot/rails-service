@@ -31,6 +31,7 @@ group :development do
   gem 'rubocop-rake', require: false
   gem 'spring'
   gem 'web-console'
+  gem 'yard', '~> 0.9.34'
 end
 
 group :test do
