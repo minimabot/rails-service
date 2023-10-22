@@ -20,6 +20,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'erb_lint', require: false
   gem "rack-mini-profiler"
   gem 'rubocop', '~> 1.56', require: false
   gem 'rubocop-capybara', require: false

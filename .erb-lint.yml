@@ -1,0 +1,17 @@
+linters:
+  ErbSafety:
+    enabled: true
+  SelfClosingTag:
+    enabled: true
+    enforced_style: always
+  Rubocop:
+    enabled: true
+    rubocop_config:
+      inherit_from:
+        - .rubocop.yml
+      Layout/InitialIndentation:
+        Enabled: false
+      Layout/TrailingEmptyLines:
+        Enabled: false
+      Style/FrozenStringLiteralComment:
+        Enabled: false
