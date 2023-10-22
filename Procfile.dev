@@ -1,2 +1,2 @@
-web: bin/rails server -p 3000
+web: bin/rails server -b 'ssl://0.0.0.0:3000?key=config/ssl/_wildcard.rails-service.localhost-key.pem&cert=config/ssl/_wildcard.rails-service.localhost.pem'
 css: bin/rails dartsass:watch
